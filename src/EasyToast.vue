@@ -16,12 +16,12 @@
 </template>
 <style>
   .et-wrapper {
-    background-color: rgba(48, 45, 55, 0.7);
-    border-radius: 5px;
-    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 0.3125rem;
+    padding: 0.375rem 0.75rem;
     display: inline-block;
-    max-width: 300px;
-    min-width: 120px;
+    max-width: 15rem;
+    min-width: 5rem;
     color: white;
     z-index: 9999;
     margin: auto;
@@ -33,11 +33,12 @@
   }
   .et-content {
     text-align: center;
+    font-size: 0.9375rem;
   }
   .et-wrapper .et-close {
     position: absolute;
     top: 0;
-    right: 5px;
+    right: 0.3125rem;
     color: white;
   }
   .et-wrapper.et-left {
@@ -58,7 +59,7 @@
   }
   .et-wrapper.et-bottom {
       top: auto;
-      bottom: 0;
+      bottom: 4rem;
   }
   .et-wrapper.et-alert {
     background-color: rgba(189, 19, 19, 0.7);
@@ -126,7 +127,7 @@
   .slide-right-enter,
   .slide-right-leave {
     opacity: 0;
-    left: -1000px !important;
+    left: -20rem !important;
   }
 </style>
 <script>
